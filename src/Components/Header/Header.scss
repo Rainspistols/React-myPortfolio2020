@@ -1,0 +1,10 @@
+@import '../../global/global.scss';
+
+.Header {
+  min-height: 250px;
+  background: $white;
+  background-image: url('./BLAH-small.jpg');
+  background-position: -80px top;
+  background-size: 150%;
+  position: relative;
+}
