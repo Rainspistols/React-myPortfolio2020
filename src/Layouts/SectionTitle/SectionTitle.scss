@@ -1,0 +1,17 @@
+@import '../../global/global.scss';
+
+.SectionTitle {
+  position: relative;
+  color: $white;
+  @extend %font__poppins--bold;
+  font-size: 22px;
+  margin: 0 0 20px 0;
+}
+.line {
+  position: absolute;
+  width: 40px;
+  height: 5px;
+  top: 0;
+  left: 0;
+  transform: translateY(-50%) translateX(-20px);
+}

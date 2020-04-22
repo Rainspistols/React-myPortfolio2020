@@ -1,0 +1,22 @@
+@import '../../global/global.scss';
+
+.AboutMe {
+  color: $white;
+  margin-bottom: 50px;
+  .helloSpeach {
+    margin-bottom: 20px;
+  }
+  .tech {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 20px;
+    padding: 15px 10px;
+    justify-content: space-around;
+    border-top: 1px solid $yellow;
+    border-bottom: 1px solid $yellow;
+    li {
+      padding-right: 10px;
+    }
+  }
+}

@@ -1,39 +1,29 @@
 import React from 'react';
 import './NavMenu.scss';
-import { MdClose } from 'react-icons/md';
-import { IconContext } from 'react-icons';
-import posed from 'react-pose';
-const Nav = posed.nav({
-  visible: { transform: 'translateX(0%)' },
-  hidden: { transform: 'translateX(-100%)' },
-});
+import { motion } from 'framer-motion';
+import NavMenuItem from './NavMenuItem/NavMenuItem';
 
-const NavMenu = ({ onCloseMenu, menuIsActive }) => {
+const NavMenu = ({ isMenuActive }) => {
+  const data = [
+    { href: '/', text: 'Home' },
+    { href: '/', text: 'Projects' },
+    { href: '#aboutMe', text: 'About me' },
+    { href: '#contact', className: 'contact', text: 'Contact' },
+  ];
+
+  const renderMenu = data.map(({ ...arr }, index) => (
+    <NavMenuItem
+      {...arr}
+      isMenuActive={isMenuActive}
+      key={index}
+      index={index}
+    />
+  ));
+
   return (
-    <Nav className='NavMenu' pose={menuIsActive ? 'visible' : 'hidden'}>
-      <button onClick={() => onCloseMenu()}>
-        <IconContext.Provider value={{ className: 'closeIcon' }}>
-          <MdClose />
-        </IconContext.Provider>
-      </button>
-
-      <ul>
-        <li>
-          <a href='/'>Home</a>
-        </li>
-        <li>
-          <a href='/'>Projects</a>
-        </li>
-        <li>
-          <a href='/'>About me</a>
-        </li>
-        <li>
-          <a href='/' className='contact'>
-            Contact
-          </a>
-        </li>
-      </ul>
-    </Nav>
+    <motion.nav className='NavMenu'>
+      <ul className='menuList'>{renderMenu}</ul>
+    </motion.nav>
   );
 };
 

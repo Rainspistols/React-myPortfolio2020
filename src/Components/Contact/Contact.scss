@@ -1,0 +1,46 @@
+@import '../../global/global.scss';
+
+.Contact {
+  .links {
+    padding: 15px 0;
+    background: $red;
+    box-sizing: border-box;
+    height: 100%;
+  }
+  li {
+    &:not(:last-child) {
+      margin-bottom: 10px;
+    }
+  }
+  a {
+    display: flex;
+    align-items: center;
+    color: $white;
+  }
+  p {
+    @extend %font__poppins--regular;
+    font-size: 16px;
+    text-decoration: underline;
+  }
+  .socialIcon {
+    width: 50px;
+    height: auto;
+    color: $white;
+    margin-right: 10px;
+  }
+  .copyright {
+    color: $white;
+    @extend %font__poppins--regular;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0;
+  }
+  .iconCopyright {
+    width: 15px;
+    height: auto;
+    color: $white;
+    margin-right: 5px;
+  }
+}

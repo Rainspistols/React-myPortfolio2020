@@ -3,8 +3,52 @@
 .Header {
   min-height: 250px;
   background: $white;
-  background-image: url('./BLAH-small.jpg');
+  background-image: url('./imgs/BLAH-small.jpg');
   background-position: -80px top;
   background-size: 150%;
   position: relative;
+  padding-top: 22px;
+  .toggleAndName {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .name {
+    color: $grey;
+    @extend %font__nunito--bold;
+    font-size: 12px;
+    margin-left: 10px;
+  }
+  .text {
+    color: $grey;
+    .slogan {
+      font-size: 22px;
+      @extend %font__poppins--bold;
+      line-height: 24px;
+      width: 50%;
+      margin-bottom: 5px;
+    }
+    .profession {
+      @extend %font__poppins--medium;
+      font-size: 12px;
+    }
+  }
+  .arrow {
+    width: 10px;
+    height: auto;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  .menuIcon {
+    color: $red;
+    width: 27px;
+    height: auto;
+    font-size: 12px;
+    position: relative;
+    z-index: 10;
+  }
+  .iconWrap {
+    z-index: 10;
+    cursor: pointer;
+  }
 }

@@ -1,0 +1,23 @@
+@import '../../../global/global.scss';
+
+.Project {
+  position: relative;
+  img {
+    width: 100%;
+    display: block;
+  }
+  a {
+    position: absolute;
+    @extend %font__poppins--bold;
+    font-size: 30px;
+    color: $white;
+    left: 20px;
+    bottom: 20px;
+    width: calc(100% - 40px);
+    line-height: 1.2em;
+  }
+  &:nth-child(2n) {
+    box-shadow: 0 0 10px $black;
+    z-index: 2;
+  }
+}

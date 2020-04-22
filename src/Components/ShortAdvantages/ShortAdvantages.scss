@@ -1,0 +1,27 @@
+@import '../../global/global.scss';
+
+.ShortAdvantages {
+  color: $white;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 54px;
+  :not(:last-child) {
+    border-right: 1px solid $white;
+    padding-right: 10px;
+  }
+  .ShortAdvantage {
+    text-transform: uppercase;
+  }
+  .upper {
+    border: none;
+    @extend %font__poppins--bold;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+  }
+  .under {
+    @extend %font__poppins--medium;
+    font-size: 12px;
+    margin: 0;
+  }
+}

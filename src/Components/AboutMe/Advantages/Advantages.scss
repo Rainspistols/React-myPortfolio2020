@@ -1,0 +1,19 @@
+@import '../../../global/global.scss';
+
+.myAdvantages {
+  display: flex;
+  flex-direction: column;
+  li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    &:last-child {
+      margin-bottom: 20px;
+    }
+  }
+  .checkIcon {
+    width: 25px;
+    height: auto;
+    margin-right: 10px;
+  }
+}

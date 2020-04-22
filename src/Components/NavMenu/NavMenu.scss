@@ -6,32 +6,14 @@
   height: 100%;
   left: 0;
   top: 0;
-  background: $white;
-  ul {
+  display: flex;
+  flex-direction: column;
+  .menuList {
     display: flex;
     flex-direction: column;
     width: 100%;
     height: 100%;
-  }
-  li {
-    width: 100%;
-    height: 25%;
-    align-self: center;
-    justify-self: center;
-  }
-  a {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    font-size: 20px;
-    @extend %font__nunito--bold;
-    color: inherit;
-    align-items: center;
-    justify-content: center;
-  }
-  li {
-    color: $grey;
-    background: $white;
+    // background: $white;
   }
   .contact {
     background: $red;
@@ -42,14 +24,4 @@
     width: 27px;
     height: 27px;
   }
-  button {
-    border: none;
-    background: transparent;
-    position: absolute;
-    left: 20px;
-    top: 22px;
-    z-index: 20;
-    cursor: pointer;
-  }
 }
-

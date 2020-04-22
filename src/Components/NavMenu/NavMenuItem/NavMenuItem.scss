@@ -1,0 +1,21 @@
+@import '../../../global/global.scss';
+
+.NavMenuItem {
+  width: 100%;
+  height: 25%;
+  align-self: center;
+  justify-self: center;
+  color: $grey;
+  background: $white;
+
+  a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    font-size: 20px;
+    @extend %font__nunito--bold;
+    color: inherit;
+    align-items: center;
+    justify-content: center;
+  }
+}

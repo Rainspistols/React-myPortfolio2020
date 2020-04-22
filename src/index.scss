@@ -4,6 +4,7 @@ body {
   margin: 0;
   @extend %font__poppins--medium;
   font-size: 12px;
+  background: $black;
 }
 
 ul,
@@ -17,4 +18,11 @@ a {
 }
 button {
   padding: 0;
+}
+p {
+  margin: 0;
+}
+img {
+  max-width: 100%;
+  height: auto;
 }
