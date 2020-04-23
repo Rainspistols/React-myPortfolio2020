@@ -7,13 +7,16 @@
     display: flex;
     align-items: center;
     margin-bottom: 5px;
-    &:last-child {
-      margin-bottom: 20px;
-    }
   }
   .checkIcon {
     width: 25px;
     height: auto;
     margin-right: 10px;
+  }
+}
+
+@media (min-width: 768px) {
+  .myAdvantages {
+    width: 40%;
   }
 }

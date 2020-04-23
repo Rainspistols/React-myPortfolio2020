@@ -19,6 +19,7 @@ const Header = () => {
 
   return (
     <motion.header className='Header'>
+
       <MainPadding>
         <div className='toggleAndName'>
           <motion.div

@@ -61,16 +61,18 @@ const AboutMe = () => {
       <SectionTitle color='#F1D620' title='About me' />
 
       <MainPadding>
-        <p className='helloSpeach'>
-          Hello, my name is Max. I’m 28 years old. The main area of my expertise
-          is front end development (clientSide of the web).
-          <br />
-          <br />
-          HTML, CSS, JS (TypeScript), building small and medium web Apps with
-          React, custom plugins, features, animations, and Coding interactive
-          layouts.
-        </p>
-        <Advantages />
+        <div className='wrap'>
+          <p className='helloSpeach'>
+            Hello, my name is Max. I’m 28 years old. The main area of my
+            expertise is front end development (clientSide of the web).
+            <br />
+            <br />
+            HTML, CSS, JS (TypeScript), building small and medium web Apps with
+            React, custom plugins, features, animations, and Coding interactive
+            layouts.
+          </p>
+          <Advantages />
+        </div>
       </MainPadding>
 
       <ul ref={listRef} className='tech'>

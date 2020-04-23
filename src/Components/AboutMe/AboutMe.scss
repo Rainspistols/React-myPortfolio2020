@@ -11,12 +11,29 @@
     align-items: center;
     flex-wrap: wrap;
     font-size: 20px;
-    padding: 15px 10px;
+    padding: 15px 0;
     justify-content: space-around;
     border-top: 1px solid $yellow;
     border-bottom: 1px solid $yellow;
     li {
-      padding-right: 10px;
+      padding: 0 10px;
+    }
+  }
+  .wrap {
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  .AboutMe {
+    .helloSpeach {
+      width: 45%;
+      margin-bottom: 0;
+    }
+    .wrap {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
     }
   }
 }

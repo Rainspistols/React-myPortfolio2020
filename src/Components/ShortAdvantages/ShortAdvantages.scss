@@ -3,11 +3,23 @@
 .ShortAdvantages {
   color: $white;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   margin-bottom: 54px;
+  width: 100%;
+
+  li {
+    width: 100%;
+    padding-left: 3vw;
+    &:nth-child(n) {
+      display: none;
+    }
+    &:nth-child(-n + 3) {
+      display: block;
+    }
+  }
   :not(:last-child) {
     border-right: 1px solid $white;
-    padding-right: 10px;
+    padding-right: 3vw;
   }
   .ShortAdvantage {
     text-transform: uppercase;
@@ -21,7 +33,48 @@
   }
   .under {
     @extend %font__poppins--medium;
-    font-size: 12px;
+    font-size: 9px;
     margin: 0;
+    padding: 0;
+  }
+}
+
+@media (min-width: 376px) {
+  .ShortAdvantages {
+    .under {
+      font-size: 12px;
+    }
+  }
+}
+
+@media (min-width: 650px) {
+  .ShortAdvantages {
+    li {
+      &:nth-child(-n + 4) {
+        display: block;
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .ShortAdvantages {
+    li {
+      &:nth-child(-n + 5) {
+        display: block;
+      }
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  .ShortAdvantages {
+    margin-bottom: 10vw;
+    .upper {
+      font-size: 24px;
+    }
+    .under {
+      font-size: 16px;
+    }
   }
 }

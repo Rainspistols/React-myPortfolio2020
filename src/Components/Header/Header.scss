@@ -3,11 +3,12 @@
 .Header {
   min-height: 250px;
   background: $white;
-  background-image: url('./imgs/BLAH-small.jpg');
-  background-position: -80px top;
-  background-size: 150%;
+  background-image: url('./imgs/BLAH@2x.jpg');
+  background-position: center top;
+  background-size: cover;
   position: relative;
   padding-top: 22px;
+  background-repeat: no-repeat;
   .toggleAndName {
     display: flex;
     align-items: center;
@@ -15,8 +16,9 @@
   }
   .name {
     color: $grey;
+    opacity: 0.7;
     @extend %font__nunito--bold;
-    font-size: 12px;
+    font-size: 10px;
     margin-left: 10px;
   }
   .text {
@@ -24,7 +26,7 @@
     .slogan {
       font-size: 22px;
       @extend %font__poppins--bold;
-      line-height: 24px;
+      line-height: 1.4em;
       width: 50%;
       margin-bottom: 5px;
     }
@@ -50,5 +52,94 @@
   .iconWrap {
     z-index: 10;
     cursor: pointer;
+  }
+}
+
+@media (min-width: 500px) {
+  .Header {
+    .name {
+      font-size: 15px;
+    }
+    .text {
+      .slogan {
+        font-size: 24px;
+      }
+      .profession {
+        font-size: 15px;
+      }
+    }
+    .menuIcon {
+      width: 40px;
+    }
+  }
+}
+
+@media (min-width: 650px) {
+  .Header {
+    background-position: center -20px;
+  }
+}
+
+@media (min-width: 768px) {
+  .Header {
+    background-image: url('./imgs/BLAH@2x.jpg');
+    min-height: 300px;
+    .name {
+      font-size: 20px;
+    }
+    .text {
+      .slogan {
+        font-size: 30px;
+        line-height: 36px;
+        margin-bottom: 10px;
+      }
+      .profession {
+        font-size: 20px;
+      }
+    }
+    .menuIcon {
+      width: 50px;
+    }
+    .toggleAndName {
+      margin-bottom: 20px;
+    }
+    .arrow {
+      width: 20px;
+    }
+  }
+}
+
+@media (min-width: 850px) {
+  .Header {
+    min-height: 400px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .Header {
+    min-height: 40vw;
+    .name {
+
+    }
+    .text {
+      .slogan {
+        font-size: 46px;
+        line-height: 1.4em;
+      }
+      .profession {
+        font-size: 30px;
+      }
+    }
+    .arrow {
+      width: 36px;
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  .Header {
+    .iconWrap {
+      display: none;
+    }
   }
 }

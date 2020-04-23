@@ -5,6 +5,7 @@
   color: $white;
   @extend %font__poppins--bold;
   font-size: 22px;
+  line-height: 1.6em;
   margin: 0 0 20px 0;
 }
 .line {
@@ -14,4 +15,14 @@
   top: 0;
   left: 0;
   transform: translateY(-50%) translateX(-20px);
+}
+
+@media (min-width: 768px) {
+  .SectionTitle {
+    font-size: 30px;
+  }
+  .line {
+    transform: translateY(-50%) translateX(-50px);
+    width: 76px;
+  }
 }

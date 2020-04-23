@@ -68,7 +68,7 @@ const Projects = () => {
   ));
 
   return (
-    <section>
+    <section id='projects'>
       <SectionTitle color='#0cb2dc' title='Some of my projects' />
       <ul className='Projects'>{renderPojects}</ul>;
     </section>

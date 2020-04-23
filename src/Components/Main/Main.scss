@@ -3,3 +3,9 @@
 .Main {
   padding-top: 23px;
 }
+
+@media (min-width: 1024px) {
+  .Main {
+    padding-top: 3.5vw;
+  }
+}

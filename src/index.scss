@@ -5,6 +5,7 @@ body {
   @extend %font__poppins--medium;
   font-size: 12px;
   background: $black;
+  min-width: 320px;
 }
 
 ul,

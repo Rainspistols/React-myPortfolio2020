@@ -17,7 +17,7 @@ const Advantages = () => {
   ];
 
   const [listRef, listInView] = useInView({
-    threshold: 0.3,
+    threshold: 0.5,
     triggerOnce: true,
   });
 
@@ -25,7 +25,7 @@ const Advantages = () => {
     visible: (i) => ({
       opacity: 1,
       transition: {
-        delay: i * 0.2,
+        delay: i * 0.3,
       },
     }),
     hidden: { opacity: 0 },

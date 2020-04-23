@@ -19,7 +19,7 @@
   }
   p {
     @extend %font__poppins--regular;
-    font-size: 16px;
+    font-size: 12px;
     text-decoration: underline;
   }
   .socialIcon {
@@ -42,5 +42,21 @@
     height: auto;
     color: $white;
     margin-right: 5px;
+  }
+}
+
+@media (min-width: 375px) {
+  .Contact {
+    p {
+      font-size: 16px;
+    }
+  }
+}
+
+@media (min-width: 500px) {
+  .Contact {
+    .socialIcon {
+      margin-right: 30px;
+    }
   }
 }

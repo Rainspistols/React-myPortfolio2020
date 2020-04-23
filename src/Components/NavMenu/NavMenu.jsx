@@ -5,8 +5,8 @@ import NavMenuItem from './NavMenuItem/NavMenuItem';
 
 const NavMenu = ({ isMenuActive }) => {
   const data = [
-    { href: '/', text: 'Home' },
-    { href: '/', text: 'Projects' },
+    { href: null, text: 'Home' },
+    { href: '#projects', text: 'Projects' },
     { href: '#aboutMe', text: 'About me' },
     { href: '#contact', className: 'contact', text: 'Contact' },
   ];
