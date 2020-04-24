@@ -7,3 +7,13 @@
     padding: 0 50px;
   }
 }
+
+@media (min-width: 1560px) {
+  .MainPadding {
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 1560px;
+    margin: 0 auto;
+    position: relative;
+  }
+}

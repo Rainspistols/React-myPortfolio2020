@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './Header.scss';
 import MainPadding from '../../Layouts/MainPadding/MainPadding';
 import NavMenu from '../NavMenu/NavMenu';
@@ -15,11 +15,27 @@ const Header = () => {
     setMenuIsActive(!isMenuActive);
   };
 
+  const [dimensionWidth, setDimensionWidth] = useState(0);
+
+  const onWindowResize = () => {
+    setDimensionWidth(window.innerWidth);
+  };
+
+  useEffect(() => {
+    onWindowResize();
+    window.addEventListener('resize', onWindowResize);
+
+    dimensionWidth >= 1024 ? setMenuIsActive(true) : setMenuIsActive(false);
+
+    return (_) => {
+      window.removeEventListener('resize', onWindowResize);
+    };
+  }, [dimensionWidth]);
+
   const renderIcon = isMenuActive ? <MdClose /> : <IoMdMenu />;
 
   return (
     <motion.header className='Header'>
-
       <MainPadding>
         <div className='toggleAndName'>
           <motion.div

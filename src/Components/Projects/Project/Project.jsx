@@ -11,6 +11,7 @@ const Project = ({ imgPath, title, href }) => {
         target='_blank'
         rel='noopener noreferrer'
         whileTap={{ scale: 0.9 }}
+        whileHover={{ scale: 1.4, color: '#F23557', x: '20%', y: '-40%' }}
       >
         {title}
       </motion.a>

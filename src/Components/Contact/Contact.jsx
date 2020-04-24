@@ -12,17 +12,6 @@ import { IconContext } from 'react-icons';
 import MainPadding from '../../Layouts/MainPadding/MainPadding';
 import SectionTitle from '../../Layouts/SectionTitle/SectionTitle';
 import { motion } from 'framer-motion';
-import { useInView } from 'react-intersection-observer';
-
-const iconVariants = {
-  hidden: {
-    scale: 0,
-  },
-  visible: {
-    scale: 1,
-    transition: { duration: 1, type: 'spring', damping: 3 },
-  },
-};
 
 const Contact = () => {
   const dataIcons = [
@@ -53,30 +42,17 @@ const Contact = () => {
     },
   ];
 
-  const [refLinks, inViewLinks] = useInView({
-    threshold: 0.2,
-    triggerOnce: true,
-  });
-
   const renderDataIcons = dataIcons.map(({ icon, text, linkTo }, index) => (
     <motion.li key={index}>
+      <IconContext.Provider value={{ className: 'socialIcon' }}>
+        {icon}
+      </IconContext.Provider>
       <motion.a
         href={linkTo}
         target='_blank'
         rel='noopener noreferrer'
         whileTap={{ scale: 0.9 }}
       >
-        <motion.div
-          className=''
-          variants={iconVariants}
-          initial='hidden'
-          animate={inViewLinks ? 'visible' : 'hidden'}
-        >
-          <IconContext.Provider value={{ className: 'socialIcon' }}>
-            {icon}
-          </IconContext.Provider>
-        </motion.div>
-
         <p>{text}</p>
       </motion.a>
     </motion.li>
@@ -87,9 +63,9 @@ const Contact = () => {
       <SectionTitle title='Contact' color='#F23557' />
 
       <footer>
-        <section className='links' ref={refLinks}>
+        <section className='links'>
           <MainPadding>
-            <ul>{renderDataIcons}</ul>
+            <ul className='links__list'>{renderDataIcons}</ul>
           </MainPadding>
         </section>
 

@@ -7,15 +7,107 @@
   left: 0;
   top: 0;
   display: flex;
-  flex-direction: column;
   .menuList {
     display: flex;
     flex-direction: column;
     width: 100%;
     height: 100%;
   }
+  .NavMenuItem {
+    width: 100%;
+    height: 33.3333333%;
+    align-self: center;
+    justify-self: center;
+    color: $grey;
+    background: $white;
+    a {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      font-size: 20px;
+      @extend %font__nunito--bold;
+      color: inherit;
+      align-items: center;
+      justify-content: center;
+    }
+  }
   .contact {
     background: $red;
     color: $white;
+  }
+}
+
+@media (min-width: 768px) {
+  .NavMenu {
+    .NavMenuItem {
+      a {
+        font-size: 26px;
+      }
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  .NavMenu {
+    right: 50px;
+    top: 10px;
+    left: auto;
+    height: auto;
+    width: auto;
+    .menuList {
+      flex-direction: row;
+      width: auto;
+    }
+    .NavMenuItem {
+      width: 125px;
+      height: 50px;
+      border: 1px solid $black;
+      a {
+        font-size: 20px;
+      }
+      &:not(.contact) {
+        background: none;
+        color: $grey;
+        border: 1px solid $black;
+      }
+      &:nth-child(2) {
+        margin-left: -1px;
+      }
+    }
+    .contact {
+      border: 1px solid $red;
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  .NavMenu {
+    .NavMenuItem {
+      width: 175px;
+      height: 65px;
+      a {
+        font-size: 22px;
+      }
+    }
+  }
+}
+
+@media (min-width: 1560px) {
+  .NavMenu {
+    top: -22px;
+    right: 0;
+  }
+}
+
+@media (min-width: 1920px) {
+  .NavMenu {
+    top: -32px;
+    .NavMenuItem {
+      width: 250px;
+      height: 100px;
+      a {
+        font-size: 28px;
+      }
+    }
   }
 }

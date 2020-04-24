@@ -20,3 +20,19 @@
     width: 40%;
   }
 }
+
+@media (min-width: 1920px) {
+  .myAdvantages {
+    li {
+      &:not(:last-child) {
+        margin-bottom: 16px;
+      }
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+    .checkIcon {
+      width: 30px;
+    }
+  }
+}

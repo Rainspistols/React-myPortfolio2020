@@ -5,7 +5,7 @@
   color: $white;
   @extend %font__poppins--bold;
   font-size: 22px;
-  line-height: 1.6em;
+  line-height: 1.4em;
   margin: 0 0 20px 0;
 }
 .line {
@@ -24,5 +24,45 @@
   .line {
     transform: translateY(-50%) translateX(-50px);
     width: 76px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .SectionTitle {
+    font-size: 42px;
+    margin-bottom: 4vw;
+  }
+  .line {
+    height: 8px;
+    width: 87px;
+  }
+}
+
+@media (min-width: 1366px) {
+  .SectionTitle {
+    font-size: 60px;
+  }
+}
+
+@media (min-width: 1560px) {
+  .SectionTitle {
+    font-size: 62px;
+  }
+  .line {
+    height: 10px;
+    width: 300px;
+    transform: translateY(-50%) translateX(-80%);
+  }
+}
+
+@media (min-width: 1920px) {
+  .SectionTitle {
+    font-size: 83px;
+    margin-bottom: 100px;
+  }
+  .line {
+    height: 15px;
+    width: 300px;
+    transform: translateY(-50%) translateX(-80%);
   }
 }

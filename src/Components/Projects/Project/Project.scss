@@ -5,7 +5,7 @@
   img {
     width: 100%;
     display: block;
-    max-width: 518px;
+    max-width: 520px;
   }
   a {
     position: absolute;
@@ -51,6 +51,42 @@
       bottom: 20px;
       padding-right: 50px;
       box-sizing: border-box;
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  .Project {
+    width: 33.33%;
+    &:last-child {
+      display: flex;
+    }
+    a {
+      font-size: 30px;
+    }
+    &:nth-child(1n) {
+      box-shadow: none;
+      z-index: 1;
+    }
+    &:nth-child(odd) {
+      z-index: 2;
+      box-shadow: 0 0 10px 1px #030202;
+    }
+  }
+}
+
+@media (min-width: 1560px) {
+  .Project {
+    a {
+      font-size: 40px;
+    }
+  }
+}
+
+@media (min-width: 1920) {
+  .Project {
+    a {
+      font-size: 50px;
     }
   }
 }

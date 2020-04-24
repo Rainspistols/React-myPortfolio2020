@@ -16,7 +16,7 @@
   }
   .name {
     color: $grey;
-    opacity: 0.7;
+    opacity: 0.9;
     @extend %font__nunito--bold;
     font-size: 10px;
     margin-left: 10px;
@@ -26,7 +26,7 @@
     .slogan {
       font-size: 22px;
       @extend %font__poppins--bold;
-      line-height: 1.4em;
+      line-height: 0.95em;
       width: 50%;
       margin-bottom: 5px;
     }
@@ -57,9 +57,6 @@
 
 @media (min-width: 500px) {
   .Header {
-    .name {
-      font-size: 15px;
-    }
     .text {
       .slogan {
         font-size: 24px;
@@ -74,23 +71,16 @@
   }
 }
 
-@media (min-width: 650px) {
-  .Header {
-    background-position: center -20px;
-  }
-}
-
 @media (min-width: 768px) {
   .Header {
     background-image: url('./imgs/BLAH@2x.jpg');
     min-height: 300px;
     .name {
-      font-size: 20px;
+      font-size: 16px;
     }
     .text {
       .slogan {
         font-size: 30px;
-        line-height: 36px;
         margin-bottom: 10px;
       }
       .profession {
@@ -118,20 +108,19 @@
 @media (min-width: 1024px) {
   .Header {
     min-height: 40vw;
-    .name {
-
-    }
     .text {
       .slogan {
-        font-size: 46px;
-        line-height: 1.4em;
+        font-size: 42px;
       }
       .profession {
-        font-size: 30px;
+        font-size: 24px;
       }
     }
     .arrow {
-      width: 36px;
+      width: 26px;
+    }
+    .toggleAndName {
+      margin-bottom: 130px;
     }
   }
 }
@@ -140,6 +129,69 @@
   .Header {
     .iconWrap {
       display: none;
+    }
+  }
+}
+
+@media (min-width: 1280px) {
+  .Header {
+    .text {
+      .slogan {
+        font-size: 50px;
+      }
+      .profession {
+        font-size: 28px;
+      }
+    }
+  }
+}
+
+@media (min-width: 1560px) {
+  .Header {
+    position: relative;
+    .text {
+      .slogan {
+        font-size: 68px;
+      }
+      .profession {
+        font-size: 36px;
+      }
+    }
+    .arrow {
+      width: 30px;
+    }
+    .name {
+      font-size: 20px;
+    }
+    .toggleAndName {
+      margin-bottom: 60px;
+      margin-top: 20px;
+    }
+  }
+}
+
+@media (min-width: 1920px) {
+  .Header {
+    padding: 58;
+    min-height: 750px;
+    .toggleAndName {
+      margin-top: 30px;
+      margin-bottom: 146px;
+    }
+    .name {
+      font-size: 28px;
+      margin-top: 0;
+    }
+    .text {
+      .slogan {
+        font-size: 83px;
+        line-height: 80px;
+        width: 55%;
+        margin-bottom: 12px;
+      }
+      .profession {
+        font-size: 36px;
+      }
     }
   }
 }

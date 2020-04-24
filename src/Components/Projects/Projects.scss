@@ -7,4 +7,16 @@
   justify-content: center;
 }
 
+@media (min-width: 1560px) {
+  .Projects {
+    max-width: 1560px;
+    margin: 0 auto 8vw;
+  }
+}
 
+@media (min-width: 1920px) {
+  .Projects {
+    max-width: 1560px;
+    margin: 0 auto 200px;
+  }
+}
