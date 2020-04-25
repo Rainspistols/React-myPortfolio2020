@@ -8,12 +8,23 @@
   }
 }
 
+@media (min-width: 1366px) {
+  .MainPadding {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+  }
+}
+
 @media (min-width: 1560px) {
   .MainPadding {
-    padding: 0;
-    box-sizing: border-box;
-    max-width: 1560px;
-    margin: 0 auto;
     position: relative;
+  }
+}
+
+@media (min-width: 1920px) {
+  .MainPadding {
+    max-width: 1560px;
   }
 }

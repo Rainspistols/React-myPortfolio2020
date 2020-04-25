@@ -92,9 +92,15 @@
   }
 }
 
+@media (min-width: 1366px) {
+  .NavMenu {
+    right: 0;
+    top: -10px
+  }
+}
+
 @media (min-width: 1560px) {
   .NavMenu {
-    top: -22px;
     right: 0;
   }
 }

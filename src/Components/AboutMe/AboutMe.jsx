@@ -13,6 +13,7 @@ const AboutMe = () => {
     'CSS3',
     'JavaScript',
     'TypeScript',
+    'Git',
     'ES6',
     'jQuery',
     'JSON',
@@ -22,6 +23,9 @@ const AboutMe = () => {
     'Gulp',
     'BEM',
     'npm',
+    'Bootstrap',
+    'Responsive',
+    'Adaptive',
     'Adobe Illustrator',
     'Figma',
     'Adobe Photoshop',
@@ -64,12 +68,14 @@ const AboutMe = () => {
         <div className='wrap'>
           <p className='helloSpeach'>
             Hello, my name is Max. I’m 28 years old. The main area of my
-            expertise is front end development (clientSide of the web).
+            expertise is front end development (clientSide of the web). I am
+            looking for a company in which I can improve and work on larger
+            projects than now, study and use new technologies. <br />
             <br />
-            <br />
-            HTML, CSS, JS (TypeScript), building small and medium web Apps with
-            React, custom plugins, features, animations, and Coding interactive
-            layouts.
+            My main area of ​​expertise is React and related libraries (Redux,
+            Create React App,React bootstrap, React Router, etc). HTML, CSS, JS
+            (TypeScript), building small and medium web Apps with React, custom
+            plugins, features, animations, and Coding interactive layouts.
           </p>
           <Advantages />
         </div>

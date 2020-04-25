@@ -6,11 +6,16 @@
   flex-wrap: wrap;
   justify-content: center;
 }
+@media (min-width: 1366px) {
+  .Projects {
+    max-width: 1200px;
+    margin: 0 auto 100px;
+  }
+}
 
 @media (min-width: 1560px) {
   .Projects {
-    max-width: 1560px;
-    margin: 0 auto 8vw;
+    margin: 0 auto 140px;
   }
 }
 

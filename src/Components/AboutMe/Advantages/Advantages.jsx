@@ -8,10 +8,10 @@ import { useInView } from 'react-intersection-observer';
 const Advantages = () => {
   const dataAdvantages = [
     'Experience : 2 years+',
-    'Availability : Asap',
+    'Availability : ASAP',
     'Languages: Polish,  English, Russian',
     'Good team player',
-    'Open and eager for new technologies',
+    'Open and eager to learn new technologies',
     'Able to learn fast',
     'Advanced UI/UX experience',
   ];
