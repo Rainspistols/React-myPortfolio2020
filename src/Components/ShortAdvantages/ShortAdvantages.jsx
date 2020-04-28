@@ -4,10 +4,10 @@ import './ShortAdvantages.scss';
 const ShortAdvantages = () => {
   const data = [
     { upper: '2+ YEARS', under: 'Work experience' },
-    { upper: '30+', under: 'Total projects' },
-    { upper: '11+', under: 'React projects' },
+    { upper: '40+', under: 'Total projects' },
+    { upper: '21+', under: 'React projects' },
     { upper: 'ASAP', under: 'accessibility' },
-    { upper: 'ASAP', under: 'accessibility' },
+    { upper: '24/7', under: 'availability' },
   ];
 
   const rendeShortAdvantages = data.map(({ upper, under }, index) => (
