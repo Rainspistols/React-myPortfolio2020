@@ -5,7 +5,7 @@ import {
   barbershopBor,
   cakeBooking,
   catEnergy,
-  codeAndMagic,
+  stopClimateChange,
   deviceShop,
   goSurf,
   reactHooks,
@@ -32,9 +32,9 @@ const Projects = () => {
       href: 'https://rainspistols.github.io/Cat-energy/',
     },
     {
-      imgPath: codeAndMagic,
-      title: 'Code and magic',
-      href: 'https://rainspistols.github.io/Code-and-Magic/',
+      imgPath: stopClimateChange,
+      title: 'Stop climate change',
+      href: 'https://rainspistols.github.io/Stop-climate-change/',
     },
     {
       imgPath: deviceShop,

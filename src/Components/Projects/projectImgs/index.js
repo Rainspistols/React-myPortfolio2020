@@ -1,7 +1,7 @@
 import barbershopBor from './barbershopBor.jpg';
 import cakeBooking from './cakeBooking.jpg';
 import catEnergy from './catEnergy.jpg';
-import codeAndMagic from './codeAndMagic.jpg';
+import stopClimateChange from './stopClimateChange.jpg';
 import deviceShop from './deviceShop.jpg';
 import goSurf from './goSurf.jpg';
 import reactHooks from './reactHooks.jpg';
@@ -12,7 +12,7 @@ export {
   barbershopBor,
   cakeBooking,
   catEnergy,
-  codeAndMagic,
+  stopClimateChange,
   deviceShop,
   goSurf,
   reactHooks,
