@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/React-myPortfolio2020/static/css/main.b9c27c7c.chunk.css",
-    "main.js": "/React-myPortfolio2020/static/js/main.9c3aeec6.chunk.js",
-    "main.js.map": "/React-myPortfolio2020/static/js/main.9c3aeec6.chunk.js.map",
+    "main.js": "/React-myPortfolio2020/static/js/main.ab38981b.chunk.js",
+    "main.js.map": "/React-myPortfolio2020/static/js/main.ab38981b.chunk.js.map",
     "runtime-main.js": "/React-myPortfolio2020/static/js/runtime-main.86dfd2ab.js",
     "runtime-main.js.map": "/React-myPortfolio2020/static/js/runtime-main.86dfd2ab.js.map",
     "static/js/2.eacae715.chunk.js": "/React-myPortfolio2020/static/js/2.eacae715.chunk.js",
     "static/js/2.eacae715.chunk.js.map": "/React-myPortfolio2020/static/js/2.eacae715.chunk.js.map",
     "index.html": "/React-myPortfolio2020/index.html",
-    "precache-manifest.be937a78f4631692ef17dafac7888819.js": "/React-myPortfolio2020/precache-manifest.be937a78f4631692ef17dafac7888819.js",
+    "precache-manifest.e3aaae5daee4a1340221b895cb79846e.js": "/React-myPortfolio2020/precache-manifest.e3aaae5daee4a1340221b895cb79846e.js",
     "service-worker.js": "/React-myPortfolio2020/service-worker.js",
     "static/css/main.b9c27c7c.chunk.css.map": "/React-myPortfolio2020/static/css/main.b9c27c7c.chunk.css.map",
     "static/js/2.eacae715.chunk.js.LICENSE.txt": "/React-myPortfolio2020/static/js/2.eacae715.chunk.js.LICENSE.txt",
@@ -16,17 +16,17 @@
     "static/media/barbershopBor.jpg": "/React-myPortfolio2020/static/media/barbershopBor.8f024e5e.jpg",
     "static/media/cakeBooking.jpg": "/React-myPortfolio2020/static/media/cakeBooking.904e7b8e.jpg",
     "static/media/catEnergy.jpg": "/React-myPortfolio2020/static/media/catEnergy.df96a64c.jpg",
-    "static/media/codeAndMagic.jpg": "/React-myPortfolio2020/static/media/codeAndMagic.d11324ab.jpg",
     "static/media/deviceShop.jpg": "/React-myPortfolio2020/static/media/deviceShop.cdf59339.jpg",
     "static/media/goSurf.jpg": "/React-myPortfolio2020/static/media/goSurf.fd124745.jpg",
     "static/media/reactHooks.jpg": "/React-myPortfolio2020/static/media/reactHooks.7629142d.jpg",
     "static/media/reactQuiz.jpg": "/React-myPortfolio2020/static/media/reactQuiz.d62fb9e0.jpg",
-    "static/media/sedona.jpg": "/React-myPortfolio2020/static/media/sedona.c845c9bd.jpg"
+    "static/media/sedona.jpg": "/React-myPortfolio2020/static/media/sedona.c845c9bd.jpg",
+    "static/media/stopClimateChange.jpg": "/React-myPortfolio2020/static/media/stopClimateChange.825c3ca6.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.86dfd2ab.js",
     "static/js/2.eacae715.chunk.js",
     "static/css/main.b9c27c7c.chunk.css",
-    "static/js/main.9c3aeec6.chunk.js"
+    "static/js/main.ab38981b.chunk.js"
   ]
 }

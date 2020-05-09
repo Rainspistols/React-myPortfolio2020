@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3cc2e8b465703c9658091fc8a0b210c3",
+    "revision": "e74b4d0d44501e3a33ce456a31c49e8d",
     "url": "/React-myPortfolio2020/index.html"
   },
   {
-    "revision": "d5fdadf256bd62d118c4",
+    "revision": "edffb1a4b9a2453f5d1e",
     "url": "/React-myPortfolio2020/static/css/main.b9c27c7c.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/React-myPortfolio2020/static/js/2.eacae715.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d5fdadf256bd62d118c4",
-    "url": "/React-myPortfolio2020/static/js/main.9c3aeec6.chunk.js"
+    "revision": "edffb1a4b9a2453f5d1e",
+    "url": "/React-myPortfolio2020/static/js/main.ab38981b.chunk.js"
   },
   {
     "revision": "b4a21d18b6b41a7477ab",
@@ -40,10 +40,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/React-myPortfolio2020/static/media/catEnergy.df96a64c.jpg"
   },
   {
-    "revision": "d11324abdcdd37adb235a1b9d72ba4c6",
-    "url": "/React-myPortfolio2020/static/media/codeAndMagic.d11324ab.jpg"
-  },
-  {
     "revision": "cdf5933907ee09c31993d9045fa8f0aa",
     "url": "/React-myPortfolio2020/static/media/deviceShop.cdf59339.jpg"
   },
@@ -62,5 +58,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c845c9bdbfd04e1d79ccb7b70e19634c",
     "url": "/React-myPortfolio2020/static/media/sedona.c845c9bd.jpg"
+  },
+  {
+    "revision": "825c3ca6773b37d62e4247d64e3dc617",
+    "url": "/React-myPortfolio2020/static/media/stopClimateChange.825c3ca6.jpg"
   }
 ]);
