@@ -9,6 +9,10 @@ import { useInView } from 'react-intersection-observer';
 const AboutMe = () => {
   const dataTech = [
     'React',
+    'Next js',
+    'Strapi',
+    'Netlify',
+    'JAM stack',
     'HTML5',
     'CSS3',
     'JavaScript',
@@ -25,7 +29,6 @@ const AboutMe = () => {
     'npm',
     'Bootstrap',
     'Responsive',
-    'Adaptive',
     'Adobe Illustrator',
     'Figma',
     'Adobe Photoshop',
