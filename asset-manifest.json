@@ -1,32 +1,29 @@
 {
   "files": {
     "main.css": "/React-myPortfolio2020/static/css/main.b9c27c7c.chunk.css",
-    "main.js": "/React-myPortfolio2020/static/js/main.0ec15b5a.chunk.js",
-    "main.js.map": "/React-myPortfolio2020/static/js/main.0ec15b5a.chunk.js.map",
+    "main.js": "/React-myPortfolio2020/static/js/main.0a916c76.chunk.js",
+    "main.js.map": "/React-myPortfolio2020/static/js/main.0a916c76.chunk.js.map",
     "runtime-main.js": "/React-myPortfolio2020/static/js/runtime-main.86dfd2ab.js",
     "runtime-main.js.map": "/React-myPortfolio2020/static/js/runtime-main.86dfd2ab.js.map",
-    "static/js/2.eacae715.chunk.js": "/React-myPortfolio2020/static/js/2.eacae715.chunk.js",
-    "static/js/2.eacae715.chunk.js.map": "/React-myPortfolio2020/static/js/2.eacae715.chunk.js.map",
+    "static/js/2.e02fd08d.chunk.js": "/React-myPortfolio2020/static/js/2.e02fd08d.chunk.js",
+    "static/js/2.e02fd08d.chunk.js.map": "/React-myPortfolio2020/static/js/2.e02fd08d.chunk.js.map",
     "index.html": "/React-myPortfolio2020/index.html",
-    "precache-manifest.ba2c12fff3dcdd393b75c4e94574f4df.js": "/React-myPortfolio2020/precache-manifest.ba2c12fff3dcdd393b75c4e94574f4df.js",
+    "precache-manifest.43b6cc848be225ae5e946a2f52be8d63.js": "/React-myPortfolio2020/precache-manifest.43b6cc848be225ae5e946a2f52be8d63.js",
     "service-worker.js": "/React-myPortfolio2020/service-worker.js",
     "static/css/main.b9c27c7c.chunk.css.map": "/React-myPortfolio2020/static/css/main.b9c27c7c.chunk.css.map",
-    "static/js/2.eacae715.chunk.js.LICENSE.txt": "/React-myPortfolio2020/static/js/2.eacae715.chunk.js.LICENSE.txt",
+    "static/js/2.e02fd08d.chunk.js.LICENSE.txt": "/React-myPortfolio2020/static/js/2.e02fd08d.chunk.js.LICENSE.txt",
     "static/media/Header.scss": "/React-myPortfolio2020/static/media/BLAH@2x.3eb56997.jpg",
     "static/media/barbershopBor.jpg": "/React-myPortfolio2020/static/media/barbershopBor.8f024e5e.jpg",
-    "static/media/cakeBooking.jpg": "/React-myPortfolio2020/static/media/cakeBooking.904e7b8e.jpg",
     "static/media/catEnergy.jpg": "/React-myPortfolio2020/static/media/catEnergy.df96a64c.jpg",
-    "static/media/deviceShop.jpg": "/React-myPortfolio2020/static/media/deviceShop.cdf59339.jpg",
     "static/media/goSurf.jpg": "/React-myPortfolio2020/static/media/goSurf.fd124745.jpg",
-    "static/media/reactHooks.jpg": "/React-myPortfolio2020/static/media/reactHooks.7629142d.jpg",
-    "static/media/reactQuiz.jpg": "/React-myPortfolio2020/static/media/reactQuiz.d62fb9e0.jpg",
+    "static/media/myLittleDreams.jpg": "/React-myPortfolio2020/static/media/myLittleDreams.efa4a595.jpg",
     "static/media/sedona.jpg": "/React-myPortfolio2020/static/media/sedona.c845c9bd.jpg",
     "static/media/stopClimateChange.jpg": "/React-myPortfolio2020/static/media/stopClimateChange.825c3ca6.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.86dfd2ab.js",
-    "static/js/2.eacae715.chunk.js",
+    "static/js/2.e02fd08d.chunk.js",
     "static/css/main.b9c27c7c.chunk.css",
-    "static/js/main.0ec15b5a.chunk.js"
+    "static/js/main.0a916c76.chunk.js"
   ]
 }

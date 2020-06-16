@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a201bf4ed2c6999d967b53a483a07672",
+    "revision": "5ac696ce58f9ea15261633f1a44fc734",
     "url": "/React-myPortfolio2020/index.html"
   },
   {
-    "revision": "1177ece27f28ea5c433c",
+    "revision": "7cd7e391f19b1ae47e8e",
     "url": "/React-myPortfolio2020/static/css/main.b9c27c7c.chunk.css"
   },
   {
-    "revision": "c30b78e2b9717ef2d51e",
-    "url": "/React-myPortfolio2020/static/js/2.eacae715.chunk.js"
+    "revision": "c4fc61f2445ac8f561c9",
+    "url": "/React-myPortfolio2020/static/js/2.e02fd08d.chunk.js"
   },
   {
     "revision": "501f379103cbfcb5ff11211dd39a28a2",
-    "url": "/React-myPortfolio2020/static/js/2.eacae715.chunk.js.LICENSE.txt"
+    "url": "/React-myPortfolio2020/static/js/2.e02fd08d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1177ece27f28ea5c433c",
-    "url": "/React-myPortfolio2020/static/js/main.0ec15b5a.chunk.js"
+    "revision": "7cd7e391f19b1ae47e8e",
+    "url": "/React-myPortfolio2020/static/js/main.0a916c76.chunk.js"
   },
   {
     "revision": "b4a21d18b6b41a7477ab",
@@ -32,28 +32,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/React-myPortfolio2020/static/media/barbershopBor.8f024e5e.jpg"
   },
   {
-    "revision": "904e7b8e5961fb51fd1702fe944e2bc9",
-    "url": "/React-myPortfolio2020/static/media/cakeBooking.904e7b8e.jpg"
-  },
-  {
     "revision": "df96a64c6203e7ec3a8ca5be0067f88d",
     "url": "/React-myPortfolio2020/static/media/catEnergy.df96a64c.jpg"
-  },
-  {
-    "revision": "cdf5933907ee09c31993d9045fa8f0aa",
-    "url": "/React-myPortfolio2020/static/media/deviceShop.cdf59339.jpg"
   },
   {
     "revision": "fd1247450c9d9bf14c1289363f18d6ca",
     "url": "/React-myPortfolio2020/static/media/goSurf.fd124745.jpg"
   },
   {
-    "revision": "7629142def4488b5eac9bd57091160cc",
-    "url": "/React-myPortfolio2020/static/media/reactHooks.7629142d.jpg"
-  },
-  {
-    "revision": "d62fb9e0ddd0803eba69ed1fbd760de2",
-    "url": "/React-myPortfolio2020/static/media/reactQuiz.d62fb9e0.jpg"
+    "revision": "efa4a595e6ab38354767e5ff5f7af6df",
+    "url": "/React-myPortfolio2020/static/media/myLittleDreams.efa4a595.jpg"
   },
   {
     "revision": "c845c9bdbfd04e1d79ccb7b70e19634c",
