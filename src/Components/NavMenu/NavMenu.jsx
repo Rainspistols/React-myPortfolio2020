@@ -11,7 +11,7 @@ const NavMenu = ({ isMenuActive, dimensionWidth }) => {
       text: 'Projects',
       whileHover: {
         backgroundColor: `#0CB2DC`,
-        scale: 1.2,
+        scale: 1.1,
         color: 'rgb(255,255,255)',
       },
     },
@@ -20,7 +20,7 @@ const NavMenu = ({ isMenuActive, dimensionWidth }) => {
       text: 'About me',
       whileHover: {
         backgroundColor: `rgb(241,214,32)`,
-        scale: 1.2,
+        scale: 1.1,
         color: 'rgb(255,255,255)',
       },
     },
@@ -28,7 +28,7 @@ const NavMenu = ({ isMenuActive, dimensionWidth }) => {
       href: '#contact',
       className: 'contact',
       text: 'Contact',
-      whileHover: { scale: 1.2 },
+      whileHover: { scale: 1.1 },
     },
   ];
 
